@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="1.60.6" />
+    <PackageReference Include="Dropbox.Api" Version="4.9.4" />
+    <PackageReference Include="Imgur.API" Version="4.0.1" />
+    <PackageReference Include="SixLabors.ImageSharp" Version="1.0.0-beta0006" />
+    <PackageReference Include="SixLabors.ImageSharp.Drawing" Version="1.0.0-beta0006" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MeowForums.Data\MeowForums.Data.csproj" />
+  </ItemGroup>
+
+</Project>

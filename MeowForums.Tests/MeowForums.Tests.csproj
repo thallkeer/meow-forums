@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.2.0" />
+    <PackageReference Include="NUnit" Version="3.12.0" />
+    <PackageReference Include="NUnit3TestAdapter" Version="3.13.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MeowForums.Data\MeowForums.Data.csproj" />
+    <ProjectReference Include="..\MeowForums.Service\MeowForums.Service.csproj" />
+    <ProjectReference Include="..\MeowForums\MeowForums.csproj" />
+  </ItemGroup>
+
+</Project>

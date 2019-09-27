@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <UserSecretsId>aspnet-MeowForums-501FAFBB-1057-4473-B582-379A80ADC1EF</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dropbox.Api" Version="4.9.4" />
+    <PackageReference Include="Imgur.API" Version="4.0.1" />
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.9" />
+    <PackageReference Include="WindowsAzure.Storage" Version="9.3.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MeowForums.Data\MeowForums.Data.csproj" />
+    <ProjectReference Include="..\MeowForums.Service\MeowForums.Service.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\images\theme\" />
+    <Folder Include="wwwroot\images\forum\" />
+    <Folder Include="wwwroot\images\users\" />
+  </ItemGroup>
+
+</Project>
